@@ -18,12 +18,13 @@ Convert this class to a react hook and update the state accordingly
 ## Tests
 <section id='tests'>
 
-``` yml
+```yml
 tests:
-    - text: <code>MyComponent</code> should return JSX.
-        testString: assert((function() { const mockedComponent = Enzyme.mount(React.createElement(MyComponent)); return mockedComponent.length === 1; })(), '<code>MyComponent</code> should return JSX.');
-    - text: <code>MyComponent</code> should return 'This is a React hook'.
-        testString: testString: assert((function() { const mockedComponent = Enzyme.mount(React.createElement(MyComponent)); return mockedComponent.find('div').text() == 'This is a React hook'; })(), 'The <code>div</code> should return 'This is a React hook.');
+  - text: <code>MyComponent</code> should return JSX.
+    testString: assert((function() { const mockedComponent = Enzyme.mount(React.createElement(MyComponent)); return mockedComponent.length === 1; })(), '<code>MyComponent</code> should return JSX.');
+  - text: <code>MyComponent</code> should return 'This is a React hook'.
+		testString: assert((function() { const mockedComponent = Enzyme.mount(React.createElement(MyComponent)); return mockedComponent.find('div').text() == 'This is a React hook'; })(), 'The <code>div</code> should return 'This is a React hook.');
+
 ```
 
 </section>
